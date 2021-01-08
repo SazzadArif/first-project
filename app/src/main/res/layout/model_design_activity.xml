@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/photoIv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/movieTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movie Name: "
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+            <TextView
+                android:id="@+id/derectorTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Derector Name: "
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
